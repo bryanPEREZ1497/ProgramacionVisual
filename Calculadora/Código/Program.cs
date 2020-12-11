@@ -8,9 +8,9 @@ namespace Matematica.Cli
         {
             do
             {
-                Console.WriteLine("Primer numero");
+                Console.WriteLine("Primer número");
                 int numero1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("Segundo numero");
+                Console.WriteLine("Segundo úumero");
                 int numero2 = int.Parse(Console.ReadLine());
                 Console.WriteLine("Escoja el operador");
                 string operador = Console.ReadLine();
