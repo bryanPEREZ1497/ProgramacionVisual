@@ -23,25 +23,25 @@ namespace Matematica.Negocio
                     return 0;
             }
         } 
-        public double Sumar(double a, double b)
+        public double Sumar(double sumando1, double sumando2)
         {
-            return a + b;
+            return sumando1 + sumando2;
         }
-        public double Restar(double a, double b)
+        public double Restar(double minuendo, double sustraendo )
         {
-            return a - b;
-        }
-
-        public double Multiplicar(double a, double b)
-        {
-            return a * b;
+            return minuendo-sustraendo;
         }
 
-        public double Dividir(double a, double b)
+        public double Multiplicar(double factor1, double factor2)
+        {
+            return factor1*factor2;
+        }
+
+        public double Dividir(double dividendo, double divisor)
         {            
-            if (b!=0)
+            if (divisor!=0)
             {
-                return a / b;
+                return dividendo / divisor;
             }
             
             return 0;
