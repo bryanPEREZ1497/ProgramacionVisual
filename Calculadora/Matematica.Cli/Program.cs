@@ -13,13 +13,20 @@ namespace Matematica.Cli
                 switch(respuesta)
                 {
                   case ConsoleKey.N:
-                    Console.WriteLine("Primer numero");
-                    int numero1 = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Segundo numero");
-                    int numero2 = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Escoja el operador");
-                    string operador = Console.ReadLine();
-
+                    try
+                    {
+                      Console.WriteLine("Primer numero");
+                      int numero1 = int.Parse(Console.ReadLine());
+                      Console.WriteLine("Segundo numero");
+                      int numero2 = int.Parse(Console.ReadLine());
+                      Console.WriteLine("Escoja el operador");
+                      string operador = Console.ReadLine();
+                    }
+                    catch(NoInputButEnter e)
+                    {
+                      Console.WriteLine(e.Message);
+                    }
+                    
                     var calculadora = new Calculadora();
                     var resultado = calculadora.Definir(numero1, numero2, operador);
                     Console.WriteLine("Resultado: " + resultado);

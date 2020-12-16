@@ -54,7 +54,7 @@ namespace Matematica.Test
 
             Assert.AreEqual(esperado, resultado);
         }
-
+        //Operaciones con complejos
         [TestMethod]
         public void SumarComplejos()
         {
@@ -65,7 +65,8 @@ namespace Matematica.Test
             var miCalculadora = new Calculadora();
             var resultado = miCalculadora.Sumar(complejo1, complejo2);
 
-            Assert.AreEqual(esperado.Real, resultado.Real);
+            //Assert.AreEqual(esperado.Real, resultado.Real);
+            Assert.IsTrue(esperado.Equals(resultado));
         }
         /*public void TruncarNumeros()
         {
@@ -79,7 +80,7 @@ namespace Matematica.Test
 
         }*/
         [TestMethod]
-        [ExpectedException(typeof(System.ArgumentException))]
+        //[ExpectedException(typeof(System.ArgumentException))]
         public void DividirPorCero()
         {
             
@@ -88,6 +89,7 @@ namespace Matematica.Test
 
             var calculadora = new Calculadora() ;
             _ = calculadora.Dividir(dividendo, divisor);
+            Assert.ThrowsException<System.ArgumentException>(() => calculadora.Dividir(dividendo,divisor));
         }
         [TestMethod]
         public void DivisionDosNumeros()

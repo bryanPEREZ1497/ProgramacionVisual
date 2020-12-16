@@ -1,0 +1,12 @@
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\bin\Debug\net5.0\Logic.deps.json
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\bin\Debug\net5.0\Logic.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\bin\Debug\net5.0\ref\Logic.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\bin\Debug\net5.0\Logic.pdb
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.csprojAssemblyReference.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\ref\Logic.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Exceptions\Logic\obj\Debug\net5.0\Logic.pdb
