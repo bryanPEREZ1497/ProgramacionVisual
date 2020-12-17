@@ -7,15 +7,15 @@ namespace CLI
     {
         static void Main(string[] args)
         {
-          Console.WriteLine("Número del mes");
+          Console.WriteLine("Escriba el número del mes");
           try
           {
             int numeroMes = int.Parse(Console.ReadLine());
-            Console.WriteLine(NombreMes(numeroMes));
+            Console.WriteLine(DarNombreDelMes(numeroMes));
           }
-          catch(SoloHayDoceMeses e)
+          catch(SoloHayDoceMeses error)
           {
-            Console.WriteLine(e.Message);
+            Console.WriteLine(error.Message);
           }
 
           catch(FormatException e)
@@ -23,7 +23,8 @@ namespace CLI
             Console.WriteLine("No escribiste nada: "+e.Message);
           }
         }
-        public static string NombreMes(int numeroMes)
+
+        public static string DarNombreDelMes(int numeroMes)
         {
           switch(numeroMes)
           {
