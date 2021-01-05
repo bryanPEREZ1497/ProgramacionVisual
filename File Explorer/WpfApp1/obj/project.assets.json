@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\File Explorer\\WpfApp1\\WpfApp1.csproj",
-      "projectName": "WpfApp1",
-      "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\File Explorer\\WpfApp1\\WpfApp1.csproj",
+      "projectUniqueName": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\File Explorer\\WpfApp1\\FileExplorer.csproj",
+      "projectName": "FileExplorer",
+      "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\File Explorer\\WpfApp1\\FileExplorer.csproj",
       "packagesPath": "C:\\Users\\bryan.perez04\\.nuget\\packages\\",
       "outputPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\File Explorer\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
