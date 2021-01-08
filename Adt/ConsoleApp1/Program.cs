@@ -1,5 +1,6 @@
 ﻿using System;
 using Adt;
+using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
@@ -7,37 +8,32 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Recorrido de árboles binarios");
-            
-            var Nodo3 = new Nodo();
-            Nodo3.Nombre = "1.1.1";
-            
-            var Nodo4 = new Nodo();
-            Nodo4.Nombre = "1.1.2";
-            
-            var Nodo5 = new Nodo();
-            Nodo5.Nombre = "1.2.1";
-            
-            var Nodo6 = new Nodo();
-            Nodo6.Nombre = "1.2.2";
-            
-            var Nodo1 = new Nodo();
-            Nodo1.Nombre = "1.1";
-            Nodo1.Izquierdo = Nodo3;
-            Nodo1.Derecho = Nodo4;
-            
-            var Nodo2 = new Nodo();
-            Nodo2.Nombre = "1.2";
-            Nodo2.Izquierdo = Nodo5;
-            Nodo2.Derecho = Nodo6;
+            Console.WriteLine("Estructuras de datos: Árboles");
+            //Árbol binario
+            Console.WriteLine("Navegación horizontal de árbol binario");
+            var raiz = new Nodo("1",
+                new Nodo("1.1",
+                  new Nodo("1.1.1"),new Nodo("1.1.2")),
+                new Nodo("1.2", 
+                  new Nodo("1.2.1"), new Nodo("1.2.2"))
+                );
+            AdministradorNodos ad = new AdministradorNodos();
+            ad.NavegarHorizontalmente(raiz);
 
-            var raiz = new Nodo();
-            raiz.Nombre = "1";
-            raiz.Izquierdo=Nodo1;
-            raiz.Derecho=Nodo2;
+            //Árbol múltiples hijos
+            NodoExt nodo1 = new NodoExt("1");
+            nodo1.Hijos = new List<NodoExt>();
+            nodo1.Hijos.Add(new NodoExt("1.1"));
+            nodo1.Hijos.Add(new NodoExt("1.2"));
+            nodo1.Hijos[0].Hijos=new List<NodoExt>();
+            nodo1.Hijos[0].Hijos.Add(new NodoExt("1.1.2"));
 
-            AdministradorNodos an = new AdministradorNodos();
-            an.RecorrerArbol(raiz);
+            //Niveles, hojas, y nodos
+            Console.WriteLine("Niveles, hojas y nodos de árbol con múltiples hijos");
+            Console.WriteLine("Niveles: {0}",NodoExt.ContarNiveles(nodo1));
+            Console.WriteLine("Hojas: {0}",NodoExt.ContarHojas(nodo1));
+            Console.WriteLine("Nodos: {0}",NodoExt.ContarNodos(nodo1));
+
         }
     }
 }

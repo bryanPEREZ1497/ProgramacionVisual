@@ -1,0 +1,5 @@
+5 + 4   -esto es infijo
+5 4 +   -posfijo
++ 5 4   -prefijo
+
+5 + 6 - 2 - 1

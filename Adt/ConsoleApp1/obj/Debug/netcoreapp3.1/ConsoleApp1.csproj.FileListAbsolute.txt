@@ -1,0 +1,32 @@
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\Adt.dll
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\Adt.pdb
+C:\Users\bryan.perez04\source\repos\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\Adt.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\bin\Debug\netcoreapp3.1\Adt.pdb
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Adt\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
