@@ -1,0 +1,12 @@
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.csprojAssemblyReference.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\bin\Debug\net5.0\Entidades.deps.json
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\bin\Debug\net5.0\Entidades.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\bin\Debug\net5.0\Entidades.pdb
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Entidades\obj\Debug\net5.0\Entidades.pdb

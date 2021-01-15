@@ -1,0 +1,251 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\CONSOLE\\Console.csproj": {}
+  },
+  "projects": {
+    "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\CONSOLE\\Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\CONSOLE\\Console.csproj",
+        "projectName": "Console",
+        "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\CONSOLE\\Console.csproj",
+        "packagesPath": "C:\\Users\\bryan.perez04\\.nuget\\packages\\",
+        "outputPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\CONSOLE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bryan.perez04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj": {
+                "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj"
+              },
+              "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj"
+              },
+              "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Negocio\\Library.csproj": {
+                "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Negocio\\Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\bryan.perez04\\.nuget\\packages\\",
+        "outputPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bryan.perez04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj",
+        "projectName": "Interfaces",
+        "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj",
+        "packagesPath": "C:\\Users\\bryan.perez04\\.nuget\\packages\\",
+        "outputPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bryan.perez04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj": {
+                "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Negocio\\Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Negocio\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Negocio\\Library.csproj",
+        "packagesPath": "C:\\Users\\bryan.perez04\\.nuget\\packages\\",
+        "outputPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bryan.perez04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj": {
+                "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Entidades\\Entidades.csproj"
+              },
+              "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj": {
+                "projectPath": "E:\\Bryan\\Desarrollo de Software\\1.Tercer nivel\\Programación Visual\\Di\\Interfaces\\Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
