@@ -10,15 +10,24 @@ namespace Juego
             Console.WriteLine("Hello World!");
             Console.WriteLine("Juego de lucha");
 
-            /*var guerrero = new Guerrero("Guerrero", new Espada());
+            /*var guerrero = new Guerrero(new Espada());
+            guerrero.Nombre="Guerrero";
             guerrero.Pelear();
-            var hechicero = new Hechicero("Hechicero", new Varita());
-            hechicero.Pelear();*/            
+            var hechicero = new Hechicero(new Varita());
+            hechicero.Nombre="Hechicero";
+            hechicero.Pelear(); 
+            var combate = new Lucha(guerrero,hechicero);
+            combate.Ganador();*/
 
-            IKernel kernel = new StandardKernel();
+            var nm = new NinjectM();
+            nm.Load();         
+
+            var kernel = new StandardKernel(nm);
+            //var kernel = new StandardKernel();
+
             var guerrero = kernel.Get<Guerrero>();
-            kernel.Bind<IArma>().To<IArma>();
-            guerrero.Pelear();
+            kernel.Bind<IArma>().To<Espada>();
+            guerrero.Pelear();    
             
 
         }

@@ -2,21 +2,23 @@
 
 namespace Juego
 {
-    class Hechicero
+    class Hechicero:IPersonaje
     {
         readonly IArma arma;
+         public string Nombre { get; set; }
 
         public Hechicero(IArma arma)
         {
-            if (arma == null) throw new ArgumentNullException("arma");
+            
             this.arma = arma;
 
         }
 
         public void Pelear()
         {
-            this.arma.Dañar();
+            this.arma.Dañar(Nombre);
         }
+       
 
 
     }

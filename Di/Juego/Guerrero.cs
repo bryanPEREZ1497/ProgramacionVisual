@@ -3,21 +3,22 @@ using Ninject;
 
 namespace Juego
 {
-    class Guerrero
+    class Guerrero:IPersonaje
     {
         readonly IArma arma;
+        public string Nombre { get; set; }
         
         public Guerrero( IArma arma)
-        {
-            if(arma == null) throw new ArgumentNullException("arma");
+        {            
             this.arma=arma;
             
         }
 
         public void Pelear()
         {
-            this.arma.Dañar();
+            this.arma.Dañar(Nombre);
         }        
+        
         
  
     }

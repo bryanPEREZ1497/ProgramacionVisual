@@ -1,11 +1,8 @@
-﻿using System;
-using Ninject;
-
-namespace Juego
+﻿namespace Juego
 {
     interface IArma 
     {        
-        void Dañar();
+        void Dañar(string personaje);
         
     }
 }

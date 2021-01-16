@@ -4,9 +4,9 @@ namespace Juego
 {
     class Varita : IArma
     {
-        public void Dañar()
+        public void Dañar(string personaje)
         {
-            Console.WriteLine("Conjurar el encantamiento abadaquedabra");
+            Console.WriteLine("{0} conjurar el encantamiento abadaquedabra",personaje);
         }        
 
     }

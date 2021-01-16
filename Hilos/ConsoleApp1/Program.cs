@@ -39,8 +39,8 @@ namespace Hilos
         {
             var hiloActual = Thread.CurrentThread;
             //hiloActual.CurrentThread=
-            Console.WriteLine("Hilo actual {0}: ",hiloActual.ManagedThreadId;
-            Console.WriteLine("Cultura {0}: ",hiloActual.CurrentCulture;
+            Console.WriteLine("Hilo actual {0}: ",hiloActual.ManagedThreadId);
+            Console.WriteLine("Cultura {0}: ",hiloActual.CurrentCulture);
             var random = new Random();
             for(int i = 0; i<10; i++)
             {
@@ -52,9 +52,9 @@ namespace Hilos
         }
     }
 
-    class Carrera 
+    public class Carrera 
     {
-        static void Corredor(object obj)
+        public static void Corredor(object obj)
         {
           var nombre = (string) obj;
           var hiloActual = Thread.CurrentThread;
