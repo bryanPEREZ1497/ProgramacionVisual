@@ -1,4 +1,6 @@
-﻿using Ninject.Modules;
+﻿using System;
+using Ninject;
+using Ninject.Modules;
 
 namespace Juego
 {
@@ -6,8 +8,8 @@ namespace Juego
     {
         public override void Load()
         {
-            this.Bind<IArma>().To<Espada>();
-            this.Bind<IArma>().To<Varita>();
+            //this.Bind<IArma>().To<Espada>();
+            //this.Bind<IArma>().To<Varita>();
         }        
               
     }
