@@ -1,5 +1,0 @@
-E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Console\obj\Debug\net5.0\Console.csprojAssemblyReference.cache
-E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Console\obj\Debug\net5.0\Console.GeneratedMSBuildEditorConfig.editorconfig
-E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Console\obj\Debug\net5.0\Console.AssemblyInfoInputs.cache
-E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Console\obj\Debug\net5.0\Console.AssemblyInfo.cs
-E:\Bryan\Desarrollo de Software\1.Tercer nivel\Programación Visual\Di\Console\obj\Debug\net5.0\Console.csproj.CoreCompileInputs.cache
