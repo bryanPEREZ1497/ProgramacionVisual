@@ -39,8 +39,6 @@ namespace ConsoleApp1
             var expresion = Console.ReadLine();
             var calculadora = new CalculadoraArbol();
             Console.WriteLine("Resultado: "+calculadora.Calcular(expresion));
-
-
         }
     }
 }
