@@ -1,0 +1,20 @@
+<p>hero-detail works!</p>
+<div *ngIf="factura">
+  <h2>Detalles de la factura numero {{factura.numerofactura | uppercase}} </h2>
+  <div><span>Cliente: </span>{{factura.nombreCliente}}</div>
+  <div><span>Direccion: </span>{{factura.direccion}}</div>
+  <div><span>Telefono: </span>{{factura.telefono}}</div>
+  <div><span>subtotal: </span>{{factura.subtotal}}</div>
+  <div><span>iva: </span>{{factura.iva}}</div>
+  <div><span>total </span>{{factura.total}}</div>
+  <div>
+    <ul>
+      <li *ngFor="let producto of productos">
+        <div><span>Cantidad: </span>{{factura.productos.cantidad}</div>
+        <div><span>Producto: </span>{{factura.productos.nombreProducto}</div>
+        <div><span>Precio: </span>{{factura.productos.precio}</div>
+        <div><span>Valor: </span>{{factura.productos.valor}</div>
+      </li>
+    </ul>
+  </div>
+</div>
