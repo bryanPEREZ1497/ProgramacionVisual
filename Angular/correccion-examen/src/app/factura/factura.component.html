@@ -1,0 +1,19 @@
+<h2>Facturas</h2>
+<ul class="facturas">
+    <li *ngFor="let factura of facturas">
+        <a routerLink="/detalle/{{factura.numerofactura}}">
+            <span>Número de factura</span> {{factura.numerofactura}}
+            <span>Cliente</span> {{factura.nombreCliente | uppercase}}
+        </a>
+        <button class="borrar" title="Borrar Factura" (click)="borrarFactura(factura)">X</button>
+    </li>
+</ul>
+<div>
+    <label>Nueva Factura:
+        <input #nombreCliente />
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button (click)="nuevaFactura(nombreCliente.value); nombreCliente.value='' ">
+        Crear
+    </button>
+</div>

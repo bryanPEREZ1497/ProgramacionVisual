@@ -1,0 +1,12 @@
+<h3>Top Facturas</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let factura of facturas" class="col-1-4" routerLink="/detalle/{{factura.numerofactura}}">
+
+    <div class="module factura">
+      <h4>Factura número {{factura.numerofactura}}</h4>
+    </div>
+
+  </a>
+</div>
+
+<app-factura-search></app-factura-search>

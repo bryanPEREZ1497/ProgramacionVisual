@@ -1,0 +1,13 @@
+<div id="search-component">
+    <h4><label for="search-box">Buscar Factura:</label></h4>
+  
+    <input #searchBox id="search-box" (input)="buscar(searchBox.value)" />
+  
+    <ul class="search-result">
+      <li *ngFor="let factura of facturas$ | async" >
+        <a routerLink="/detalle/{{factura.numerofactura}}">
+          {{factura.nombreCliente}}
+        </a>
+      </li>
+    </ul>
+  </div>

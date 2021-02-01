@@ -1,0 +1,28 @@
+<div *ngIf="factura">
+  <h2>Detalles de la factura número {{factura.numerofactura}} </h2>
+  <div><span>Cliente: </span>{{factura.nombreCliente}}</div>
+  <div><span>Direccion: </span>{{factura.direccion}}</div>
+  <div><span>Telefono: </span>{{factura.telefono}}</div>
+  <div><span>subtotal: </span>{{factura.subtotal}}</div>
+  <div><span>iva: </span>{{factura.iva}}</div>
+  <div><span>total </span>{{factura.total}}</div>
+  <div>
+    <label>Número de factura:
+      <input [(ngModel)]="factura.numerofactura" placeholder="Número de factura" />
+    </label>
+  </div>
+
+  <ul>
+    <li *ngFor="let producto of productos">
+
+      <span>Cantidad: </span>{{producto.cantidad}}
+      <span>Producto: </span>{{producto.nombreProducto}}
+      <span>Precio: </span>{{producto.precio}}
+      <span>Valor: </span>{{producto.valor}}
+    </li>
+  </ul>
+
+</div>
+
+<button (click)="regresar()">Regresar</button>
+<button (click)="guardar()">guardar</button>
