@@ -7,9 +7,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
-using KevinGuachagmiraFinal.Models;
+using Servidor_con_csharp.Models;
 
-namespace KevinGuachagmiraFinal.Controllers
+namespace Servidor_con_csharp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -91,7 +91,7 @@ namespace KevinGuachagmiraFinal.Controllers
                     myCon.Close();
                 }
             }
-            return new JsonResult("AÑADIDO MUY BIEN");
+            return new JsonResult("BIEN");
         }
     }
 }

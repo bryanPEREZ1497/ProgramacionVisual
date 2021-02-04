@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace KevinGuachagmiraFinal.Models
+namespace Servidor_con_csharp.Models
 {
     public class Heroes
     {
